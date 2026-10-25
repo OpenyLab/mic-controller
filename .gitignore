@@ -1,0 +1,56 @@
+# Ambientes virtuais Python
+.venv/
+venv/
+env/
+ENV/
+
+# Bytecode e caches do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Artefatos de build e empacotamento (PyInstaller / setuptools / wheel)
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.bak
+
+# Ícones/arquivos gerados automaticamente no processo de build
+assets/
+
+# Caches de ferramentas de teste, lint e tipagem
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.temp
+*.swp
+
+# Configurações locais de IDEs e editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Arquivos de sistema operacional (Windows / macOS)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Variáveis de ambiente locais
+.env
+.env.*
+
